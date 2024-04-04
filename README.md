@@ -8,7 +8,8 @@ Leonardo Rodrigues de Souza https://github.com/LeoRodrigues1
 
 Maria julia Leandro Leal Rocha https://github.com/majulleal
 
-![mj](https://github.com/majulleal/swap-nutri/assets/100427903/a882442a-e72d-4990-8cf9-6de3452ce8dc)
+![mj](https://github.com/majulleal/swap-nutri/assets/100427903/355f925f-d77d-4d03-ad4b-c42083d9214d)
+
 
 Matheus Duarte Gouveia de Souza https://github.com/MatheuwsDuarte
 
