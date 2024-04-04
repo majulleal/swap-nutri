@@ -21,4 +21,5 @@ Raul Pan Bertoline https://github.com/LineRout
 ![Imagem do WhatsApp de 2024-04-04 à(s) 14 35 27_d12cf582](https://github.com/majulleal/swap-nutri/assets/100427903/cf5873dd-488c-4efb-a165-fb4e8b28da20)
 
 
+Interface com cadastro/login de clientes, com a funcionalidade principal de calcular as substituições de alimentos de acordo com os macronutrientes dos alimentos e suas quantidades. Também será inserido um dashboard informativo para o cliente com seus dados. Nosso público alvo serão as pessoas que buscam alimentação saudavel.
 
