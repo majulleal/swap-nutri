@@ -6,6 +6,9 @@ EC46C - Desenvolvimento Ágil - C61 (2024_01)
 
 Leonardo Rodrigues de Souza https://github.com/LeoRodrigues1
 
+![WhatsApp Image 2024-04-10 at 00 01 22](https://github.com/majulleal/swap-nutri/assets/136391034/1392f2da-d6bc-4408-9735-7843c37a0a3e)
+
+
 Maria julia Leandro Leal Rocha https://github.com/majulleal
 
 ![mj](https://github.com/majulleal/swap-nutri/assets/100427903/355f925f-d77d-4d03-ad4b-c42083d9214d)
