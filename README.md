@@ -30,5 +30,7 @@ Raul Pan Bertoline https://github.com/LineRout
 
 Site com cadastro/login de clientes, com a funcionalidade principal de calcular as substituições de alimentos de acordo com os macronutrientes dos alimentos e suas quantidades. Também será inserido um dashboard informativo para o cliente com seus dados. Nosso público alvo será as pessoas que buscam alimentação saudavel.
 
-Requisitos de Usuario/RF
+- [Requisitos Funcionais](https://github.com/majulleal/swap-nutri/blob/24e93fa23cbd50fc1aaa2d3de91774328d0f2ae9/Requisitos%20de%20Usuario/RF) 
+
+- [Requisitos Não Funcionais](https://github.com/majulleal/swap-nutri/blob/24e93fa23cbd50fc1aaa2d3de91774328d0f2ae9/Requisitos%20de%20Usuario/RNF)
 
