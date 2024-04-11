@@ -20,6 +20,9 @@ Matheus Duarte Gouveia de Souza https://github.com/MatheuwsDuarte
 
 Matheus Felipe Delmont Mitraud https://github.com/Mitraud
 
+![WhatsApp Image 2024-04-11 at 16 15 55](https://github.com/majulleal/swap-nutri/assets/166027790/1bb70f67-07ae-4eb0-bd4f-168d014baa58)
+
+
 Raul Pan Bertoline https://github.com/LineRout
 
 
