@@ -8,3 +8,5 @@ A tabela 2 a seguir contém os Requisitos Não Funcionais (RNF) elicitados a té
 Tabela 2: Requisitos não funcionais
 
 # 2. Referências
+
+- [Voltar ao inicio](https://github.com/majulleal/swap-nutri/blob/main/README.md) 
