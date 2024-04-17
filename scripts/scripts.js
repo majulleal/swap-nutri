@@ -1,6 +1,3 @@
-
-
-
 function validar(event){
 
     const formlogin = document.getElementById('formulario');
