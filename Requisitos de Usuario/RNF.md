@@ -5,7 +5,7 @@ A Tabela 2 a seguir contém os Requisitos Não Funcionais (RNF) elicitados a té
 | ID   |                                                      Requisito                                                     | Prioridade | Requisitos Relacionados |
 | :--: | :----------------------------------------------------------------------------------------------------------------: | :--------: | :-------: |
 | RNF01 |                O sistema deve ser implementado na linguagem HTML, CSS e JavaScript                                                             |  Baixa     |    -      |
-| RNF02 |                A página online web não deve ser superior a 100Kbytes                                                                           |  Alta      |      RNF02    |
+| RNF02 |                A página online web não deve ser superior a 100Kbytes                                                                           |  Alta      |      RNF01    |
 | RNF03 |                As consultas ao sistema devem ser respondidas em menos de dois segundos                                                         |  Alta      |     -     |
 | RNF04 |                Os usuários devem ser capazes de utilizar todas as funcionalidades do sistema após 1 hora de treinamento.                       |  Baixa     |      -    |
 | RNF05 |                O sistema deve estar disponível 70% das vezes                                                                                   |  Alta      |      -    |
