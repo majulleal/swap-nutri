@@ -4,7 +4,7 @@ A Tabela 1 a seguir contém os Requisitos Funcionais (RF) elicitados a técnica 
 
 | ID   |                                                      Requisito                                                     | Prioridade | Requisitos Relacionados |
 | :--: | :----------------------------------------------------------------------------------------------------------------: | :--------: | :-------: |
-| RF01 |O software deve permitir ao usário realizar seu cadstro, informando dados pessoais como (nome, idade, peso, altura, email, senha e confirmação).|  Alta      |    -     |
+| RF01 |O software deve permitir ao usário realizar seu cadastro, informando dados pessoais como (nome, idade, peso, altura, email, senha e confirmação).|  Alta      |    -     |
 | RF02 |                                         O software deve permitir ao usário realizar seu acesso com login e senha.                              |  Alta      |     RF01   |
 | RF03 |               O software deve oferecer ao usuário uma tela onde possa ele possa realizar o cadastro de suas metas nutricionais.                |  Média     |     -     |
 | RF04 |                      O software deve oferecer uma aba com receitas contendo a quantidade de nutrientes que o usuário deve consumir.            |  Baixa     |     RF03   |
