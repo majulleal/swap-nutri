@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nome": "Arroz, integral, cozido",
+    "categoria": "Cereais",
+    "por100g": {
+      "calorias": 124.0,
+      "proteinas": 2.6,
+      "carboidratos": 25.8,
+      "gorduras": 1.0,
+      "fibras": 2.7
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Arroz, tipo 1, cozido",
+    "categoria": "Cereais",
+    "por100g": {
+      "calorias": 128.0,
+      "proteinas": 2.5,
+      "carboidratos": 28.1,
+      "gorduras": 0.2,
+      "fibras": 1.6
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Batata doce, cozida",
+    "categoria": "Tuberculos",
+    "por100g": {
+      "calorias": 77.0,
+      "proteinas": 0.6,
+      "carboidratos": 18.4,
+      "gorduras": 0.1,
+      "fibras": 2.2
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Feijao, carioca, cozido",
+    "categoria": "Leguminosas",
+    "por100g": {
+      "calorias": 76.0,
+      "proteinas": 4.8,
+      "carboidratos": 13.6,
+      "gorduras": 0.5,
+      "fibras": 8.5
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Peito de frango, sem pele, grelhado",
+    "categoria": "Carnes",
+    "por100g": {
+      "calorias": 159.0,
+      "proteinas": 32.0,
+      "carboidratos": 0.0,
+      "gorduras": 3.2,
+      "fibras": 0.0
+    }
+  },
+  {
+    "id": 6,
+    "nome": "Ovo, de galinha, inteiro, cozido",
+    "categoria": "Ovos",
+    "por100g": {
+      "calorias": 146.0,
+      "proteinas": 13.3,
+      "carboidratos": 0.6,
+      "gorduras": 9.5,
+      "fibras": 0.0
+    }
+  },
+  {
+    "id": 7,
+    "nome": "Banana, prata",
+    "categoria": "Frutas",
+    "por100g": {
+      "calorias": 98.0,
+      "proteinas": 1.3,
+      "carboidratos": 26.0,
+      "gorduras": 0.1,
+      "fibras": 2.0
+    }
+  },
+  {
+    "id": 8,
+    "nome": "Aveia, flocos, crua",
+    "categoria": "Cereais",
+    "por100g": {
+      "calorias": 394.0,
+      "proteinas": 14.0,
+      "carboidratos": 66.6,
+      "gorduras": 8.5,
+      "fibras": 9.1
+    }
+  },
+  {
+    "id": 9,
+    "nome": "Leite, integral",
+    "categoria": "Laticinios",
+    "por100g": {
+      "calorias": 58.0,
+      "proteinas": 3.0,
+      "carboidratos": 4.5,
+      "gorduras": 3.2,
+      "fibras": 0.0
+    }
+  },
+  {
+    "id": 10,
+    "nome": "Macarrao, trigo, cozido",
+    "categoria": "Cereais",
+    "por100g": {
+      "calorias": 102.0,
+      "proteinas": 3.4,
+      "carboidratos": 19.9,
+      "gorduras": 0.5,
+      "fibras": 1.5
+    }
+  }
+]
