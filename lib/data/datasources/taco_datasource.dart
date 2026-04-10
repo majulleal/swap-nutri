@@ -21,13 +21,20 @@ class TacoDatasource {
     return _cache!;
   }
 
-  Future<List<Alimento>> buscar(String query) async {
+  Future<List<Alimento>> buscar(String query, {String? categoria}) async {
     final alimentos = await carregarAlimentos();
-    if (query.isEmpty) return alimentos;
 
-    final queryLower = query.toLowerCase();
-    return alimentos
-        .where((a) => a.nome.toLowerCase().contains(queryLower))
+    var resultado = alimentos.toList();
+
+    if (categoria != null && categoria.isNotEmpty) {
+      resultado = resultado.where((a) => a.categoria == categoria).toList();
+    }
+
+    if (query.isEmpty) return resultado;
+
+    final queryNorm = _removerAcentos(query.toLowerCase());
+    return resultado
+        .where((a) => _removerAcentos(a.nome.toLowerCase()).contains(queryNorm))
         .toList();
   }
 
@@ -38,5 +45,35 @@ class TacoDatasource {
     } catch (_) {
       return null;
     }
+  }
+
+  Future<List<String>> listarCategorias() async {
+    final alimentos = await carregarAlimentos();
+    final categorias = alimentos.map((a) => a.categoria).toSet().toList()
+      ..sort();
+    return categorias;
+  }
+
+  Future<Map<String, List<Alimento>>> agruparPorCategoria() async {
+    final alimentos = await carregarAlimentos();
+    final mapa = <String, List<Alimento>>{};
+    for (final a in alimentos) {
+      mapa.putIfAbsent(a.categoria, () => []).add(a);
+    }
+    return Map.fromEntries(
+      mapa.entries.toList()..sort((a, b) => a.key.compareTo(b.key)),
+    );
+  }
+
+  static String _removerAcentos(String texto) {
+    const acentos =
+        'àáâãäåèéêëìíîïòóôõöùúûüýÿñçÀÁÂÃÄÅÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝŸÑÇ';
+    const semAcentos =
+        'aaaaaaeeeeiiiioooooouuuuyynccAAAAAAEEEEIIIIOOOOOUUUUYYNC';
+
+    return texto.split('').map((char) {
+      final index = acentos.indexOf(char);
+      return index != -1 ? semAcentos[index] : char;
+    }).join();
   }
 }
